@@ -1,6 +1,6 @@
  <?php
 
-       $f="https://github.com/kpuja816/portfolio/blob/master/assets/MyResume.pdf";   
+       $f="MyResume.pdf";   
 
        $file = ("assets/$f");
 
