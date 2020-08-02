@@ -371,11 +371,14 @@
   </section><!-- End Services Section -->
 
   <!-- ======= Portfolio Section ======= -->
+   </section><!-- End Services Section -->
+
+  <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio">
     <div class="container">
 
       <div class="section-title">
-       
+        
         <p>My Works</p>
       </div>
 
@@ -384,7 +387,8 @@
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-app">Web</li>
-            <li data-filter=".filter-card">Data Science</li>
+            <li data-filter=".filter-card">IoT</li>
+            <li data-filter=".filter">Data Science</li>
             <li data-filter=".filter-web">App</li>
           </ul>
         </div>
@@ -392,22 +396,25 @@
 
       <div class="row portfolio-container">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/pic1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 1</h4>
+            <video id="video1" height="200" controls autoplay loop>
+     <source src="assets/img/portfolio/VID-20190313-WA0015.mp4" class="img-fluid" type="video/mp4">
+        </video>
+           
+         <script>
+var vid = document.getElementById("video1");
+vid.muted = true;
+</script> 
+   <div class="portfolio-info">
+              <h4>Web 2</h4>
               <p>Web</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/pic1.jpg" data-gall="portfolioGallery" class="venobox" title="Web"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details3.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="portfolio-details.html"  data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
+            </div>
           </div>
-        </div>
-
-
-
 
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
@@ -438,15 +445,15 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio.jpg" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/pic1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
+              <h4>Web 1</h4>
+              <p>Web</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/pic1.jpg" data-gall="portfolioGallery" class="venobox" title="Web"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details3.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -454,7 +461,7 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio.jpg" class="img-fluid" alt="">
+            <img src="" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Web 2</h4>
               <p>Web</p>
@@ -466,9 +473,13 @@
           </div>
         </div>
 
+
+
+ 
+
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/portfolio.jpg" class="img-fluid" alt="">
+            <img src="" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>App 3</h4>
               <p>App</p>
