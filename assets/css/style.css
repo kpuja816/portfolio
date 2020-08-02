@@ -50,7 +50,6 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------
 #background
 ---------------------------------*/
-
 @keyframes move_wave {
     0% {
         transform: translateX(0) translateZ(0) scaleY(1)
@@ -120,8 +119,6 @@ h1, h2, h3, h4, h5, h6 {
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
 }
-
-
 
 
 
